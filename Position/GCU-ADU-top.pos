@@ -1,0 +1,10 @@
+### Footprint positions - created on 2024-08-31T13:36:59-0700 ###
+### Printed by KiCad version 8.0.2
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                            PosX       PosY       Rot  Side
+A1        SW_Push   SW_Push_1P1T_NO_6x6mm_H9.5mm   104.7750   -68.3260    0.0000  top
+B1        SW_Push   SW_Push_1P1T_NO_6x6mm_H9.5mm    89.5987   -75.8841    0.0000  top
+X1        SW_Push   SW_Push_1P1T_NO_6x6mm_H9.5mm   119.2880   -64.8356    0.0000  top
+Y1        SW_Push   SW_Push_1P1T_NO_6x6mm_H9.5mm   101.0329   -53.9542    0.0000  top
+## End

@@ -1,0 +1,7 @@
+### Footprint positions - created on 2024-08-31T13:36:59-0700 ###
+### Printed by KiCad version 8.0.2
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val          Package                       PosX       PosY       Rot  Side
+PINS1     503480-0640  molex_5034800640_ribbon    77.5382   -79.3202   90.0000  bottom
+## End

@@ -1,0 +1,246 @@
+(footprint "molex_5034800640_ribbon"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "PINS1"
+		(at 0.1016 -3.4036 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "93d4f8ef-7edb-4e8c-bb59-3f696902caa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "503480-0640"
+		(at -0.0762 0.0254 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efb9b89b-1caf-46d6-b833-91625ea35be9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "molex_5034800640_ribbon"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f6a4d8e-6f8e-464e-b528-e031137b12a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c6b0d70-d791-436f-9d16-ca78aff074e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Edge connector pins"
+		(at -0.6604 -0.127 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0816259b-4abe-4ba8-8e9e-a1b2fcfd5257")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2399bae-2154-490b-ab1f-b1c9238fc3c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "538-503480-0640"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b3daf6f-46fb-4af3-91ae-86cef1d86243")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30e6d22a-0abc-4629-a912-b76889d82de6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef3daadc-9f93-4633-b95e-425330c66844")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7787424-ea6b-40ae-970f-12044a9afff0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67d336eb-f72f-4a6f-ab79-1a0164b6b5f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12ffb3f0-af65-47bc-afb3-def428e7f556")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51bb4352-104a-43d8-bb09-7598fd5da452")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_bom dnp)
+	(fp_poly
+		(pts
+			(xy 1.8556 1.6386) (xy -1.8556 1.6386) (xy -1.8556 -2.8324) (xy 1.8556 -2.8324)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "Dwgs.User")
+		(uuid "4dd51609-826e-4fac-a54d-6653350d68e4")
+	)
+	(fp_text user "0.3mm Total Thickness With Stiffener"
+		(at 0.0254 4.3688 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "9aaa0c1b-d29f-4ebd-b5e3-d7aacddea2f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(pad "1" connect roundrect
+		(at 1.25 0.5)
+		(size 0.25 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e4194a3e-8deb-4237-aa74-224831801fb7")
+	)
+	(pad "2" connect roundrect
+		(at 0.75 0.5)
+		(size 0.25 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "8b874073-c940-4453-9e9e-465c85841bb3")
+	)
+	(pad "3" connect roundrect
+		(at 0.25 0.5)
+		(size 0.25 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ea5f1583-dc19-429d-9240-a27d2e67f2c1")
+	)
+	(pad "4" connect roundrect
+		(at -0.25 0.5)
+		(size 0.25 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "20fa631c-0216-489c-a0e7-cc82c606ce6c")
+	)
+	(pad "5" connect roundrect
+		(at -0.75 0.5)
+		(size 0.25 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "88334134-ddc0-4121-8df2-23cc70e964c2")
+	)
+	(pad "6" connect roundrect
+		(at -1.25 0.5)
+		(size 0.25 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "896457a6-e08b-4cf9-9754-f20cb4096899")
+	)
+)
