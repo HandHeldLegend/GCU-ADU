@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "02d3c7e2-b0ef-4ec0-95ae-0ac7175a2554")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -89,10 +93,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -101,9 +104,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -149,6 +153,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "hhl:503480-0640"
 			(exclude_from_sim no)
@@ -398,11 +403,22 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "You must replace each SW_Push component,\nor simply define the footprint you wish\nto use.\n\nYou may place footprints into the 'Footprints' folder\nbefore loading up this project to ensure you can see them\nunder the 'ADU' library in the footprint browser."
+		(exclude_from_sim no)
+		(at 129.032 30.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12a583f3-008f-47b4-bc5b-214f020325b7")
 	)
 	(wire
 		(pts
-			(xy 95.25 52.07) (xy 93.98 52.07)
+			(xy 110.49 46.99) (xy 107.95 46.99)
 		)
 		(stroke
 			(width 0)
@@ -412,7 +428,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 62.23) (xy 93.98 62.23)
+			(xy 110.49 57.15) (xy 107.95 57.15)
 		)
 		(stroke
 			(width 0)
@@ -432,7 +448,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 54.61) (xy 93.98 54.61)
+			(xy 110.49 49.53) (xy 107.95 49.53)
 		)
 		(stroke
 			(width 0)
@@ -472,7 +488,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 57.15) (xy 95.25 57.15)
+			(xy 107.95 52.07) (xy 110.49 52.07)
 		)
 		(stroke
 			(width 0)
@@ -502,7 +518,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 59.69) (xy 93.98 59.69)
+			(xy 110.49 54.61) (xy 107.95 54.61)
 		)
 		(stroke
 			(width 0)
@@ -512,7 +528,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 64.77) (xy 93.98 64.77)
+			(xy 110.49 59.69) (xy 107.95 59.69)
 		)
 		(stroke
 			(width 0)
@@ -540,19 +556,9 @@
 		)
 		(uuid "ef8ea160-e605-4dcf-9592-0a9bd1113be1")
 	)
-	(text "You must replace each SW_Push component,\nor simply define the footprint you wish\nto use.\n\nYou may place footprints into the 'Footprints' folder\nbefore loading up this project to ensure you can see them\nunder the 'ADU' library in the footprint browser."
-		(exclude_from_sim no)
-		(at 129.032 30.226 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "12a583f3-008f-47b4-bc5b-214f020325b7")
-	)
-	(global_label "X1"
+	(global_label "X6"
 		(shape input)
-		(at 95.25 52.07 0)
+		(at 110.49 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -560,31 +566,9 @@
 			)
 			(justify left)
 		)
-		(uuid "1527ac92-cf26-412d-a205-c007ae6eddf8")
+		(uuid "162e76d0-4108-4844-a648-457732feed4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.6542 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "X5"
-		(shape input)
-		(at 95.25 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b110560-4b7e-4c19-979b-5e0d4aea0bda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.6542 54.61 0)
+			(at 115.8942 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -638,9 +622,9 @@
 			)
 		)
 	)
-	(global_label "X6"
+	(global_label "X2"
 		(shape input)
-		(at 95.25 57.15 0)
+		(at 110.49 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -648,9 +632,9 @@
 			)
 			(justify left)
 		)
-		(uuid "388e55e9-b084-4dc7-afa0-cd3a8877853b")
+		(uuid "311e775a-e17a-4bb3-af92-42cbe4d531c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.6542 57.15 0)
+			(at 115.8942 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -660,9 +644,9 @@
 			)
 		)
 	)
-	(global_label "X2"
+	(global_label "X5"
 		(shape input)
-		(at 95.25 59.69 0)
+		(at 110.49 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -670,9 +654,9 @@
 			)
 			(justify left)
 		)
-		(uuid "617be175-b4c3-4828-947f-e2847bce7a79")
+		(uuid "5ca6987d-02d5-42e3-a1ea-33a6d7a24d1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.6542 59.69 0)
+			(at 115.8942 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -684,7 +668,7 @@
 	)
 	(global_label "X3"
 		(shape input)
-		(at 95.25 62.23 0)
+		(at 110.49 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -692,9 +676,31 @@
 			)
 			(justify left)
 		)
-		(uuid "a286f4a3-9f78-43e2-b4d8-9bc8f0fa402a")
+		(uuid "9c5dac20-1440-4a79-8d2a-c2fd67b8cff6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.6542 62.23 0)
+			(at 115.8942 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "X1"
+		(shape input)
+		(at 110.49 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e33aace-4747-466d-aefe-121470576d64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.8942 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -722,6 +728,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "X4"
+		(shape input)
+		(at 110.49 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca3b5c6d-e4b6-464d-8624-473f34419e7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.8942 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -810,28 +838,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "X4"
-		(shape input)
-		(at 95.25 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dbc8a26c-3161-4a64-91ad-a3e556b979d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.6542 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -928,7 +934,7 @@
 	)
 	(symbol
 		(lib_id "hhl:503480-0640")
-		(at 71.12 52.07 0)
+		(at 85.09 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -937,7 +943,7 @@
 		(fields_autoplaced yes)
 		(uuid "130596d8-24af-4aee-9c1a-5785b9cdd849")
 		(property "Reference" "PINS1"
-			(at 82.55 44.45 0)
+			(at 96.52 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -945,7 +951,7 @@
 			)
 		)
 		(property "Value" "503480-0640"
-			(at 82.55 46.99 0)
+			(at 96.52 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,7 +959,7 @@
 			)
 		)
 		(property "Footprint" "ADU:molex_5034800640_ribbon"
-			(at 90.17 146.99 0)
+			(at 104.14 141.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 246.99 0)
+			(at 104.14 241.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -973,7 +979,7 @@
 			)
 		)
 		(property "Description" "Edge connector pins"
-			(at 71.12 52.07 0)
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +988,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 90.17 446.99 0)
+			(at 104.14 441.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,7 +998,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-503480-0640"
-			(at 90.17 546.99 0)
+			(at 104.14 541.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1008,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 90.17 646.99 0)
+			(at 104.14 641.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +1018,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 90.17 746.99 0)
+			(at 104.14 741.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,7 +1028,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 90.17 846.99 0)
+			(at 104.14 841.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,7 +1038,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 90.17 846.99 0)
+			(at 104.14 841.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1048,7 @@
 			)
 		)
 		(property "JLCPN" ""
-			(at 71.12 52.07 0)
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +1057,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 71.12 52.07 0)
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,4 +1301,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
