@@ -890,7 +890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "ADU:EVQ-Q2F02W"
 			(at 128.27 62.23 0)
 			(effects
 				(font
@@ -899,7 +899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_th.pdf"
 			(at 128.27 62.23 0)
 			(effects
 				(font
@@ -908,7 +908,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "1 million press, 2.5mm height tactile button"
+			(at 128.27 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C388887"
+			(at 128.27 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EVQ-Q2F02W"
 			(at 128.27 67.31 0)
 			(effects
 				(font
@@ -1065,6 +1083,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 85.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "176838b2-646b-4645-806b-047442f596db")
 		)
@@ -1118,7 +1145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "ADU:EVQ-Q2F02W"
 			(at 128.27 52.07 0)
 			(effects
 				(font
@@ -1127,7 +1154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_th.pdf"
 			(at 128.27 52.07 0)
 			(effects
 				(font
@@ -1136,7 +1163,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "1 million press, 2.5mm height tactile button"
+			(at 128.27 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C388887"
+			(at 128.27 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EVQ-Q2F02W"
 			(at 128.27 57.15 0)
 			(effects
 				(font
@@ -1186,7 +1231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "ADU:EVQ-Q2F02W"
 			(at 128.27 41.91 0)
 			(effects
 				(font
@@ -1195,7 +1240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_th.pdf"
 			(at 128.27 41.91 0)
 			(effects
 				(font
@@ -1204,7 +1249,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "1 million press, 2.5mm height tactile button"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C388887"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EVQ-Q2F02W"
 			(at 128.27 46.99 0)
 			(effects
 				(font
@@ -1254,7 +1317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "ADU:EVQ-Q2F02W"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -1263,7 +1326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_th.pdf"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -1272,7 +1335,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "1 million press, 2.5mm height tactile button"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C388887"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EVQ-Q2F02W"
 			(at 128.27 77.47 0)
 			(effects
 				(font

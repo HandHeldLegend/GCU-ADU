@@ -1,0 +1,124 @@
+(footprint "EVQ-Q2F02W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3a80e309-46a8-41c7-828d-2db4c1974657")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EVQ-Q2F02W"
+		(at 0 4.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4914c525-0fc5-4523-8972-d02798f9621d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83affe47-9b86-48a5-aeb6-be4076d3f42f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f53a3042-0a88-4c37-a1ac-b46b0d32405e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3 -3.25)
+		(end 3 3.25)
+		(stroke
+			(width 0.0125)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "be02c52c-e1bf-4e83-bf5b-5a96a4196780")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "171218f6-2d23-4529-8f4b-6cdb13876347")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.4 -2)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "65771903-344d-415a-9581-503ff6bcb36c")
+	)
+	(pad "1" smd roundrect
+		(at 3.4 -2)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "7f36a5f5-910e-481b-84c8-c8478aaf8ff0")
+	)
+	(pad "2" smd roundrect
+		(at -3.4 2)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "ab30bbcc-aaaa-4e4b-abe5-ca5e19a0ba00")
+	)
+	(pad "2" smd roundrect
+		(at 3.4 2)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "2de10b24-f0eb-43d0-98c0-4fe42681cdc6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D/evqq2-bfkpuy-02w_.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
