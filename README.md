@@ -13,4 +13,5 @@ Cutouts for the RGB LEDs are present here. Do not cover those as it will complic
 <img width="997" height="651" alt="image" src="https://github.com/user-attachments/assets/ef6efc49-37c5-4c94-814a-7810e33882bc" />
 
 This example file is designed to be used with 2.5mm height tactile switches, in combination with 5mm diameter, 2mm height silicone adhesive stoppers.
+
 <img width="635" height="587" alt="image" src="https://github.com/user-attachments/assets/891edf64-0594-4cd6-9f88-e02b6963f967" />
