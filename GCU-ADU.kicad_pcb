@@ -941,17 +941,6 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 113.5634 58.7248)
-		(end 125.2982 67.6148)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "B.Adhes")
-		(uuid "01f85d0b-8c70-4a3d-a43f-6df934bccaac")
-	)
-	(gr_rect
 		(start 113.5634 71.9374)
 		(end 125.2982 76.484)
 		(stroke
